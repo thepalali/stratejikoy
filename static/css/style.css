@@ -1,0 +1,264 @@
+/* reset CSS :: Start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c6670; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5c6670; 
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d6d9db; 
+}
+/* The track NOT covered by the handle.
+::-webkit-scrollbar-track-piece {
+  background: #000; 
+}
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: #5c6670; 
+}
+/* Resizer */
+::-webkit-resizer {
+  background: #5c6670; 
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.4;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset CSS :: End */
+
+/*** Globale CSS :: Start ***/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  line-height:1.4;
+  background:#fff;
+  color:#414142;
+  font-weight: 400;
+  padding: 0 10px 10px;
+}
+strong, b{
+  font-weight:700;
+}
+img{
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 26px;
+}
+h4{
+  font-size: 22px;
+}
+h5{
+  font-size: 18px;
+}
+h6{
+  font-size: 15px;
+}
+p{
+  margin: 0 0 20px;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  transition: 0.4s;
+}
+
+.btn-theme{
+  color: #fff;
+  background: #F05A28;
+  border: 1px solid transparent;
+}
+.btn-theme:hover{
+  color: #fff;
+  background: #212121;
+  border: 1px solid transparent;
+}
+.btn-theme-two{
+  color: #212121;
+  background: #FFF0BC;
+}
+.btn-theme-two:hover{
+  color: #fff;
+  background: #5c636a;
+}
+
+.form-control, .form-select{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 5px 12px;
+  min-height: 36px;
+  color: #212121;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+}
+.form-select:focus{
+  border-color: #FFF0BC;
+  box-shadow: 0 0 0 0.25rem rgba(240, 90, 40, 0.2);
+}
+.form-control.lg, .form-select.lg{
+  padding: 10px 20px;
+  min-height: 48px;
+  color: #212121;
+  opacity: 1;
+  font-size: 20px;
+}
+.btn-block{
+  width: 100%;
+}
+.modal-dialog{
+  max-height: 72vh;
+}
+.btn-close {
+  background-color: rgba(0,0,0,0.15);
+  opacity: 1;
+}
+.btn-close:focus{
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,0.15);
+}
+/*** Globale CSS :: End ***/
+
+/*** Header :: Start ***/
+header{
+  text-align: center;
+  background: #fff;
+  padding: 16px;
+}
+.logo{
+  height: 80px;
+  margin: auto;
+  margin: 0 0 10px;
+}
+header .logo-text{
+  font-size: 24px;
+}
+.page-wrap {
+  padding: 15px 0;
+  background: #F05A28;
+  height: calc(100vh - 166px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#detail-modal .modal-header{
+  align-items: flex-start;
+  justify-content: center;
+}
+#detail-modal .modal-body{
+  font-size: 18px;
+  line-height: 28px;
+  max-height: 72vh;
+  overflow: auto;
+}
+/*** Header :: End ***/
+
+.city-input{
+  color: #fff;
+  max-width: 380px;
+  margin: 0 auto 60px;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.city-input .form-wrap{
+  margin: 0 0 20px;
+}
+.city-input label{
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.party-logo{
+  text-align: center;
+}
+.party-logo img{
+  height: 80px;
+  background: #fff;
+  padding: 5px;
+}
+
+@media (max-width: 360px) {
+  .city-input{
+    padding: 15px;
+  }
+}
+@media (max-height: 540px) {
+  .city-input{
+    margin: 0 auto 20px;
+  }
+}
+@media (max-height: 480px) {
+  .city-input{
+    margin: 0 auto 30px;
+  }
+  .page-wrap{
+    min-height: 340px;
+  }
+}
